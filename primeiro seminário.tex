@@ -1,0 +1,216 @@
+% ----------------------------------------------------------------------------------------------------- %
+% Manual da Classe UFTeX
+% 
+% Versão 2.1:   Março 2018
+%
+% Criado por:   Tiago da Silva Almeida
+% Revisado por: Tiago da Silva Almeida
+%               Rafael Lima de Carvalho
+%               Ary Henrique Morais de Oliveira
+%
+% https://almeidatiago.github.io/uftex/
+% ----------------------------------------------------------------------------------------------------- %
+
+\documentclass[report]{uftex}
+% ---- Esse comando cria o nome uftex estilizado
+\newcommand\uftex{UF\TeX}
+
+\usepackage{amsmath}
+
+\usepackage{lipsum}
+\usepackage{tikz}
+\usepackage[siunitx]{circuitikz}
+\usetikzlibrary{arrows}
+
+\usepackage[alf,abnt-emphasize=bf]{abntex2cite}
+\renewcommand{\backrefpagesname}{}
+\renewcommand{\backref}{}
+\renewcommand*{\backrefalt}[4]{}
+% ----  Esse comandos são necessário no pré-ambulo para a impressão da lista de lista abreviatuas e de símbolos
+\makelosymbols
+\makeloabbreviations
+% ---- Início do documento
+\begin{document}
+  % ---- Descrição do título do trabalho 
+  \title{1º Seminário Avaliação Financeira de Investimentos}
+  % ---- Nome do autor ou autores do trabalho
+  \author{Lorenzo}{Costa Miranda}
+  % ---- Nome do orientador do trabalho. O último campo representa o título do professor
+  % ---- Departamento representa o curso ao qual o trabalho está sendo apresentado. Descrito por meio de duas iniciais do curso
+  \department{CE}
+  % ---- Data da apresentação do trabalho
+  \date{12}{03}{2024}
+  % ---- Palavras-chaves em português do trabalho
+  \keyword{\LaTeX}
+  \keyword{\uftex}
+  \keyword{Trabalho de Conclusão de Curso}
+  \keyword{Redação Científica}
+  \keyword{Extensão Universitária}
+  % ---- Palavras-chaves em inglês do trabalho
+  \foreignkeyword{\LaTeX}
+  \foreignkeyword{\uftex}
+  \foreignkeyword{Bachelor Thesis}
+  \foreignkeyword{Scientific Writing}
+  \foreignkeyword{University Extension}
+  % ---- Comando responsável por criar a capa do trabalho e/ou folha de resto conforme a configuração exigida
+  \maketitle
+
+  \frontmatter
+
+  \printlosymbols  
+  \printloabbreviations
+  % ---- Cria a lista de figuras. OPCIONAL
+  %\listoffigures
+  % ---- Cria a lista de tabelas. OPCIONAL
+  %\listoftables 
+  % ---- Cria o sumário. OBRIGATÓRIO
+ 
+% --- Marca o inicio dos elementos textuais. Capítulos.
+\mainmatter
+% ---- Defino o espaçamento de um e meio centímetros
+\onehalfspacing
+% ----------------------------------------------------------------------------------------------------- %
+% Capítulos do trabalho
+% ----------------------------------------------------------------------------------------------------- %
+
+\chapter{Capitalização Composta}
+
+\large \textbf{Resolução:}
+
+\section{Taxas de Juros Compostos Equivalentes}
+
+
+\begin{itemize}
+	\item[(a)] $i_q = (1+i_t)^\frac{q}{t} -1$ $\rightarrow$ $i_q = (1+0,33)^\frac{3}{12} -1 = 0,07389$ $\rightarrow$ \textbf{7,38\%}
+	
+	\item[(b)] $i_q = (1+i_t)^\frac{q}{t} -1$ $\rightarrow$ $i_q = (1+0,025)^\frac{12}{1} -1 = 0,3448$ $\rightarrow$ \textbf{34,48\%}
+	
+	\item[(c)] $i_q = (1+i_t)^\frac{q}{t} -1$ $\rightarrow$ $i_q = (1+0,04)^\frac{4}{1} -1 = 0,1698$ $\rightarrow$  \textbf{16,98\%}
+	
+	\item[(d)] $i_q = (1+i_t)^\frac{q}{t} -1$ $\rightarrow$ $i_q = (1+0,06)^\frac{6}{12} -1 = 0,02956$ $\rightarrow$ \textbf{2,95\%}
+\end{itemize}
+
+\section{Capitalização Composta}
+
+\begin{itemize}
+	\item[(a)] $M = C(1+i)^n$ $\rightarrow$ $M = 6.000(1+0,03)^3 = \textbf{6.556,362}$
+	
+	\item[(b)] $M = C(1+i)^n$ $\rightarrow$ $M = 125.000(1+0,03)^6 = 149.256,537 - 125.000 = \textbf{24.256,53}$
+	
+	\item[(c)] $M = C(1+i)^n$ $\rightarrow$ $125.000 = C(1+0,03)^6 = \textbf{104.685,532}$
+	
+	\item[(d)] $M = C(1+i)^n$ $\rightarrow$ $26.000 = 2.600(1+i)^{28}$ $\rightarrow$ $\frac{26.000}{2600} = (1+i)^{28}$ $\rightarrow$ $10 = (1+i)^{28}$ $\rightarrow$  $\sqrt[28]{10} = 1 + i$ $\rightarrow$ $i =$ \textbf{8,57\%}
+	
+	\item[(e)] $M = C(1+i)^n$ $\rightarrow$ $2C = C(1+0,03)^n$ $\rightarrow$ $n = \log_{1,03}(2)$ $\rightarrow$ $\frac{\log(2)}{\log(1,03)} = \frac{0,30102}{0,01283}$ $\rightarrow$ \textbf{23,44}
+\end{itemize}
+
+\section{Desconto Comercial Composto}
+
+\begin{itemize}
+	\item[(a)] 78 dias = 2,5 meses. $D_c = C(1-i)^n$ $\rightarrow$ $1.110,63 = 10.000(1-i)^{2,5}$ $\rightarrow$  $0,111063 = (1-i)^{2,5}$ $\rightarrow$ $\sqrt[2,5]{0,111063} = i-i$ $\rightarrow$ i = \textbf{58,48\%} 
+	
+	\item[(b)] 51 dias = 1,7 meses. $D_c = C(1-i)^n$ $\rightarrow$ $6.168 = 6.730(1-i)^{1,7}$ $\rightarrow$ $\frac{6.168}{6730} = (1-i)^{1,7}$ $\rightarrow$ $\sqrt[1,7]{0,91649} = 1-i$ $\rightarrow$ i = \textbf{5\%}
+	
+	\item[(c)] $D_c = C(1-i)^n$ $\rightarrow$ $D_c = 35.000(1-0,05)^3$ $\rightarrow$ $D_c = 35.000 \times 0,857375$ $\rightarrow$ \textbf{30.008,125}
+	
+\end{itemize}
+
+\section{Valor do Dinheiro no Tempo}
+
+\begin{itemize}
+	\item[(a)] $VP = \frac{VR}{(1+i)^n}$ $\rightarrow$ $VP = \frac{190.000}{(1+0,1455)^\frac{152}{360}}$ $\rightarrow$ $VP = \frac{190.000}{1,05903} = \textbf{179.409}$
+	 
+	\item[(b)] $VP = \frac{VR}{(1+i)^n}$ $\rightarrow$ $VP = \frac{30.000}{(1+0,0117)^\frac{148}{30}}$ $\rightarrow$ $VP = \frac{30.000}{1,059063} = \textbf{28.326}$ 
+	
+	\item[(c)] $VP = \frac{VR}{(1+i)^n}$ $\rightarrow$ $75.000 = \frac{VR}{(1+0,0113)^\frac{153}{30}}$ $\rightarrow$ $75.000 \times 1,05898 = VR = \textbf{79.423}$
+	
+	\item[(d)]  $VP = \frac{VR}{(1+i)^n}$ $\rightarrow$ $160.000 = \frac{VR}{(1+0,0892)^\frac{60}{360}}$ $\rightarrow$ $160.000 \times 1,01434 = VR = \textbf{162.294}$ 
+\end{itemize}
+
+\section{Séries de Pagamentos}
+
+\begin{itemize}
+	\item[(a)] $FAC_{pos}: N = V[\frac{(1+i)^n-1}{i}]$ $\rightarrow$ $N = 700[\frac{(1+0,028)^8-1}{0,028}]$ $\rightarrow$ $N = 700[\frac{0,24722}{0,028}] = \textbf{6.180,5}$ 
+	
+	\item[(b)] $FAC_{ante}: VT = PMT\frac{(1+i)^n-1}{i}(1+i)$ $\rightarrow$ $VT = 700\frac{(1+0,028)^{10}-1}{0,028}(1+0,028)$ $\rightarrow$ $VT = 700\frac{1,31804 -1}{0,028}(1,028) = 700\frac{0,31804}{0,028}(1-0,028)$ $\rightarrow$ $700\times11,35884\times1,028 = \textbf{8.173,827}$ 
+	
+	\item[(c)] $FFC_{ante}: = PMT = VF\frac{i}{(1+i)^n-1}\frac{1}{1+i}$ $\rightarrow$ $PMT = 45.000\frac{0,03}{(1+0,03)^{30}-1}\frac{1}{1+0,03}$ $\rightarrow$ $PMT = 45.000\frac{0,03}{1,42726}\frac{1}{0,03}$ $\rightarrow$ $45.000\times0,021019\times0,9708 = \textbf{889,860}$
+	
+	\item[(d)] ?
+	
+	\item[(e)] $FAC_{ante}: VF = PMT\frac{(1+i)^n-1}{i}(1+i)$ $\rightarrow$ $VF = 670\frac{(1+0,06)^{12}-1}{0,06}(1+0,06)$ $\rightarrow$ $670\frac{1,012196}{0,06}(1+0,06)$ $\rightarrow$ $670\times16,86994\times1,06 = \textbf{11.981,0322}$
+		
+	\item[(f)] $122.000 - 40\% = 73.200$ $\rightarrow$ $FRC_{ante}: V = VP\frac{(1+i)^ni}{(1+i)^n-1}\frac{1}{1+i}$ $\rightarrow$ $V = 73.200\frac{(1+0,025)^{24}0,025}{(1+0,025)^{24}-1}\frac{1}{1+0,025}$ $\rightarrow$ $V = 73.200\frac{1,80872\times0,025}{0,80872}\frac{1}{1,025}$ $\rightarrow$ $73.200\times0,055913\times0,97560 = \textbf{3.992,983}$
+	
+\end{itemize}
+
+\section{Sistema de Amortização PRICE e SAC}
+
+\begin{itemize}
+	\item[(a)] PRICE e SAC:
+	 $J = I . N \rightarrow 0,02 \times 30.000 = 600,00$
+	
+	\item[(b)] PRICE:
+	$R = C[\frac{(1=i)^ni}{(1+i)^n-1}]$ $\rightarrow$ $R = 30.000[\frac{(1+0,02)^{24}0,02}{(1+0,02)^{24}-1} \rightarrow R = 30.000[\frac{0,03216}{0,60843} = 1.586,15$ \\
+	\underline{Depois:} $FVA(i,n-t) = [\frac{(1+i)^n-1}{(1+i)^ni}] \rightarrow FVA(0,02, 24-14) FVA = [\frac{0,21899}{0,02437}] = 8,9860$ \\
+	 $J_{t} = i . R . FVA (i,n,-1+1) \rightarrow J_{14} = 0,02 \times 1.586,15 \times 8,9860 = \textbf{285,06}$\\
+	\underline{Antes:}  $FVA(i,n-t) = [\frac{(1+i)^n-1}{(1+i)^ni}] \rightarrow FVA(0,02, 24-13) FVA = [\frac{0,24337}{0,02486}] = 8,9860$ \\
+	$J_{t} = i . R . FVA (i,n,-1+1) \rightarrow J_{14} = 0,02 \times 1.586,15 \times 9,789 = \textbf{310,53}$\\
+	
+	SAC: 
+	Amortização $(A): VP/n \rightarrow 30.000/24 = 1.250$ \\
+	\underline{Depois:}
+	$J_t = i.A.(n-t+1) \rightarrow J_{14} = 0,02 \times A \times (24-14+1)$ $\rightarrow$ $J_{14} = 0,02 \times 1.250 \times 11 = \textbf{275}$\\
+	\underline{Antes:}
+	$J_t = i.A.(n-t+1) \rightarrow J_{14} = 0,02 \times A \times (24-13+1)$ $\rightarrow$ $J_{14} = 0,02 \times 1.250 \times 12 = \textbf{300}$ \\
+
+	\item[(c)] PRICE:
+	14° parcela da amortização ($A_{14}$): $R - J_{14} \rightarrow A_{14}: 1.586,15 - 285,06 = \textbf{1.301,09}$\\
+	SAC: 
+	14° parcela da amortização ($A_{14}$): $30.000/24 = \textbf{1.250}$
+	 
+	\item[(d)] PRICE:
+	$Sd_{t} = R.FVA(i,n-t) \rightarrow Sd_{14} = R.FVA(0,02,14) \rightarrow Sd_{14} = 1.586,15 \times 8,9860 = \textbf{14.253,14}$\\
+	SAC: 
+	$P_{t} = A.(n-t) \rightarrow P_{14} = 1.250 \times 10 = \textbf{12.500}$
+	
+	\item[(e)]
+	
+\end{itemize}
+
+\chapter{Formação do Preço de venda e Lucro}
+
+\section{2.1 Com base nos dados da tabela a seguir, calcular o preço de venda da empresa MotorTem Ltda pelo método Mark-up:}
+
+Despesa Variável: $17\% + 1,65\% + 24\% + 1,50\% = 44,15$ \\ 
+Despesa Fixa/Lucro: $3\% + 20\% = 30\%$ \\
+$44,15\% + 35\% = 74,15\%$  \\
+Mark-up multiplicador: $100\% - 74,15\% = 25,85\% \rightarrow \frac{100\%}{25,85\%} = 3,8684$ \\
+$Preço de Venda: 700 \times 3,8684 = \textbf{2.707,88}$ 
+
+\section{2.2 Calcular o PV para a empresa SeiTudo Ltda para 30 dias pelo método Direto:}
+
+$DA = \frac{(PE \times (1+i)^n - VR) \times i}{(1+i)^n -1}$ $\rightarrow$ $\frac{(95.000(1+0,225)^{10}-30.000) \times 0,225}{(1+0,225)^{10}-1}$ = $\frac{920.790,571 - 30.000}{8,69253}$ = $\frac{890.790,571}{8,69253} = \textbf{102.477,7103}$
+
+\section{A metalúrgica FerroAço Ltda dispõe dos seguintes dados de produção:}
+
+\begin{itemize}
+	\item[(a)] $PPV = \frac{125 + 85}{1-0,15} = \frac{210}{0,85} = 247,05_{ton/u}$ \\
+$PvP_{30} = PVV \times (1+i)^n$ $\rightarrow$ $247,05(1 + 0,2275)^1 = \textbf{253,843}$ \\
+$PvP_{60} = 247,05(1+0,0275)^2$ $\rightarrow$ $1,0557 \times 247,05 = \textbf{266,824}$
+	
+	\item[(b)] $PE/v = \frac{CF}{MC}$ $\rightarrow$ $\frac{17.000}{85} = \textbf{200 unidades}$ \\
+$PE/v = PVV \times PE/v$ $\rightarrow$ $247,05 \times 200 = \textbf{49.410}$ \\
+Justificativa pelo DRE: 49.410(vendas) - 17.411 (15\% imposto) - 25.000(Custos diretos). MC = 16.998,5 - 27.000 (Custo fixo) = 00,00
+	
+	\item[(c)] $MSO/u = 1.300 - 200 = 1.100$ \\
+$MSO/v = 1.100 \times 247,05 = 271.755$ \\
+$MSO_\% = \frac{MSO/u - vendas(PE/v)}{MSO/u}$ $\rightarrow$ $\frac{1.100-200}{1.100} = \frac{900}{1.100} = 81,81\%$ \\
+$\%MC$: $\frac{MC}{PVV}$ $\rightarrow$ $\frac{85}{427,05} = 0,3440$
+\text{Lucro}: $\frac{\%MC \times \%MSO}{100\%}$ $\rightarrow$ $\frac{34,40\% \times 31,81}{100\%} = \textbf{28,14\%}$
+
+\end{itemize}
+
+\chapter{Ponto de Equilíbrio Empresarial}
+
+\end{document}
