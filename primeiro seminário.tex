@@ -16,6 +16,7 @@
 \newcommand\uftex{UF\TeX}
 
 \usepackage{amsmath}
+\usepackage{scalefnt}
 
 \usepackage{lipsum}
 \usepackage{tikz}
@@ -178,6 +179,7 @@
 	
 	\begin{table}[h]
 		\centering
+		\scalefont{1.4}
 		\begin{tabular}{c|c|c|c|c}
 			\hline
 			N° & Prestação & Juros & Amortização & Saldo devedor \\ 
@@ -262,6 +264,7 @@
 	
 	\begin{table}[h]
 	\centering
+	\scalefont{1.4}
 	\begin{tabular}{c|c|c|c|c}
 		\hline
 		N° & Prestação & Juros & Amortização & Saldo devedor \\ 
@@ -355,7 +358,7 @@ Despesa Variável: $17\% + 1,65\% + 24\% + 1,50\% = 44,15$ \\
 Despesa Fixa/Lucro: $3\% + 20\% = 30\%$ \\
 $44,15\% + 35\% = 74,15\%$  \\
 Mark-up multiplicador: $100\% - 74,15\% = 25,85\% \rightarrow \frac{100\%}{25,85\%} = 3,8684$ \\
-$Preço de Venda: 700 \times 3,8684 = \textbf{2.707,88}$ 
+Preço de Venda: $700 \times 3,8684 = \textbf{2.707,88}$ 
 
 \section{ Calcular o PV para a empresa SeiTudo Ltda para 30 dias pelo método Direto:}
 
@@ -521,5 +524,172 @@ Devemos acrescentar ao custo de produção unitário R\$ 0,73, que é o valor po
 \end{table}}
 
 \chapter{Decisões de Concessão de Crédito}
+
+\section{Considerando os dados da tabela a seguir da empresa ServeBem Ltda, avaliar as estratégias de concessão de crédito e não concessão de crédito.}
+
+A decisão da empresa de conceder ou não conceder crédito está de acordo com os valores ed valor presente líquido (VPL). Se o VPL de oferecer crédito for maior que o VPL de não conceder, então concluí-se que a concessão trará um retorno maior, o contrário tornaria não vantajoso conceder. 
+
+Não conceder crédito: $VPL = (Po.Qo)-(Co.Qo) \rightarrow VPL = (45,00\times150,00) - (25,00\times150,00) \rightarrow VPL = 6.750 - 3.750 = \textbf{3.000}$ \\
+
+Conceder crédito: $VPL = \frac{h.P'o.Q'o}{1-r_b} - C'o.Q'o \rightarrow VPL = \frac{0,95\times45,00\times250}{1+0,025} - 30,00\times250 \rightarrow VPL = \frac{10.687,5}{1,025} - 7.500 = \textbf{2.926,82}$ \\
+
+Então conclui-se que não é vantajoso conceder crédito uma vez que o $VLP_{semcredtio}$ é maior que $VLP_{comcredito}$.
+
+\section{A empresa Trator Ltda. vende aproximadamente 750 minis tratores por ano, ao preço de R\$ 7.250,00 por unidade. Todas as vendas são efetuadas a prazo, em condições de 3/30 ou 90 dias líquidos. A empresa oferece as condições de pagamentos a seguir: Suponhamos que 65\% dos clientes dessa empresa aproveitem o desconto oferecido pela empresa e paguem no trigésimo dia de cada mês e os demais paguem no nonagésimo dia. Calcule o prazo médio de recebimento (PMR); as vendas diárias médias (VDM) e o saldo de crédito a receber (SCR).}
+
+$PMR = 0,65 \times 30 + 0,35 \times 90$ = \textbf{51 dias.} 
+
+$VDM = \frac{Preço.Quantidade}{365} \rightarrow VDM = \frac{7.250,00 \times 750}{365}$ = \textbf{R\$14.897,26.}
+
+$SCR = PMR.VDM \rightarrow SCR = 51 \times 14.897,26$ = \textbf{R\$759.760,26.}
+ 
+Prova real: $PMR = SCR/VDM = 759.760,26/14.897,26$ = 51.
+
+\chapter{Avaliação de Investimentos em Vendas}
+
+Utilizando-se dos dados operacionais e financeiros do quadro a seguir, elabore um orçamento de vendas dos produtos que a Empresa Atacadista Sobedesse Ltda comercializa: Chuveiro Tradicional (CT) e Chuveiro Jato (CJ). Pede-se: Avaliação do investimento de vendas para outubro e novembro/ 2023 e calcular o lucro líquido e a margem de lucro líquida.
+
+\begin{itemize}
+	
+\item[(a)] Receitas das vendas dos dois produtos. 
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{l|c|c|c}
+		\hline
+		 & \textbf{CT} & \textbf{CJ} & \textbf{TOTAL} \\ 
+		\hline
+		\textbf{Volume de vendas em unidades} &  &  &  \\
+		\hline
+		Agosto 2023 & 10.000 & 5.000 & 15.000 \\
+		\hline
+		Setembro 2023 & 15.000 & 7.000 & 22.000 \\
+		\hline
+		Total por produto & 25.000 & 12.000 & 37.000 \\
+		\hline
+		Aumento das vendas em (\%) & 15 & 10 & \\
+		\hline 
+		\textbf{Volume de vendas em unidades} & & & \\
+		\hline
+		Outubro 2023 & 11.500 & 5.500 & 17.000 \\
+		\hline
+		Novembro 2023 & 17.250 & 7.700 & 24.950 \\ 
+		\hline 
+		Total por produto & 28.750 & 13.200 & 41.950 \\
+		\hline
+		Preço de venda em (R\$) & 40 & 60 & \\
+		\hline 
+		\textbf{Receita de venda em (R\$)} &  & & \\
+		\hline 
+		Outubro 2023 & 460.000 & 330.000 & 790.000 \\
+		\hline 
+		Novembro 2023 & 690.000 & 462.000 & 1.152.000 \\
+		\textbf{Total por produto} & 1.150.000 & 792.000 & 1.942.000 \\
+	\end{tabular}
+\end{table}
+
+\item[(b1)] Custos das vendas por produto.
+
+ \begin{table}[h]
+ 	\centering
+ 	\begin{tabular}{l|c|c|c}
+ 		\hline
+ 		& \textbf{CT} & \textbf{Cj} & \textbf{Total} \\ 
+ 		\hline
+ 		\textbf{Outubro 2023} & 232.300 & 166.833 & 399.133 \\
+ 		\hline
+ 		Caixas & 2.300 & 1.833,33 & 4.133 \\
+ 		\hline
+ 		Chuveiros & 230.000 & 165.000 & 395.000 \\
+ 		\hline
+ 		\textbf{Novembro 2023} & 348.450 & 233.566 & 348.450 \\
+ 		\hline
+ 		Caixas & 3.450 & 2.566,66 & 6.016 \\
+ 		\hline
+ 		Chuveiros & 345.000 & 231.000 & 576.000 \\
+ 		\hline
+ 		\textbf{Total por produto} & 580.750 & 400.399 & 981.149 \\
+	\end{tabular}
+\end{table}
+
+
+\item[(b2)] Cálculo das compras de chuveiros.
+
+ \begin{table}[h]
+	\centering
+	\begin{tabular}{l|c|c|c}
+		\hline
+		& \textbf{CT} & \textbf{Cj} & \textbf{Total} \\ 
+		\hline
+		Estoque final & 1.000 & 450 & 1.450 \\
+		\hline
+		Estoque inicial & 2.000 & 750 & 2.750 \\
+		\hline
+		Quantidade de compras & 27.750 & 12.900 & 40.650 \\
+		\hline
+		Preço de compras (R\$) & 20 & 30 & \\
+		\hline
+		\textbf{Total de compras em (R\$)} & 555.000 & 387.000 & 942.000 \\
+	\end{tabular}
+\end{table}
+
+\vspace*{2cm}
+
+\item[(c)] Cálculo das compras das embalagens: 
+
+ \begin{table}[h]
+	\centering
+	\begin{tabular}{l|c|c|c}
+		\hline
+		& \textbf{CT} & \textbf{Cj} & \textbf{Total} \\ 
+		\hline
+		Estoque final & 50 & 30 & 80 \\
+		\hline
+		Estoque inicial & 100 & 50 & 150 \\
+		\hline
+		Quantidade de compras & 28.700 & 13.180 & 40.650 \\
+		\hline
+		Preço de compras (R\$) & 4 & 5 & \\
+		\hline
+		\textbf{Total de compras em (R\$)} & 114.800 & 65.900 & 180.700 \\
+	\end{tabular}
+\end{table}
+
+\item[(d)] Total de compras.
+
+ \begin{table}[h]
+	\centering
+	\begin{tabular}{l|c|c|c}
+		\hline
+		& \textbf{CT} & \textbf{Cj} & \textbf{Total} \\ 
+		\hline
+		Lâmpadas em (R\$) & 555.000 & 387.000 & 942.000 \\
+		\hline
+		Embalagens em (R\$) & 114.800 & 65.900 & 180.700 \\
+		\hline
+		\textbf{Total de compras em (R\$)} & 669.800 & 452.900 & 1.122.700 \\
+	\end{tabular}
+\end{table}
+
+\item[(e)] Lucro bruto em estoque.
+\end{itemize}
+
+ \begin{table}[h]
+	\centering
+	\begin{tabular}{l|c|c|c}
+		\hline
+		& \textbf{CT} & \textbf{Cj} & \textbf{Total} \\ 
+		\hline
+		Receita de vendas & 1.150.000 & 792.000 & 1.942.000 \\
+		\hline
+		(-)Custos das vendas & 669.800 & 452.900 & 1.122.700 \\
+		\hline
+		\textbf{Total de compras em (R\$)} & 480.200 & 339.100 & 819.300 \\
+	\end{tabular}
+\end{table}
+\chapter{Coeficiente de risco e retorno}
+
+\section{Com as seguintes informações sobre investimentos da empresa Vaivai Ltda nos projetos A e B abaixo. Calcule qual deles propicia melhor compensação entre o risco e retorno.}
+
 
 \end{document}

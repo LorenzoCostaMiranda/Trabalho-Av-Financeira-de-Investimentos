@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  21 SEP 2024 22:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  22 SEP 2024 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -746,6 +746,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(C:\Program Files\MiKTeX\tex/latex/carlisle\scalefnt.sty)
 (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.sty
 (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
@@ -1158,31 +1159,31 @@ Writing index of symbols file "primeiro seminário".syx
 \openout5 = `"primeiro seminário.abx"'.
 
 Writing index of abbreviations file "primeiro seminário".abx
-LaTeX Font Info:    Trying to load font information for T1+aer on input line 33
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 34
 .
 (C:\Program Files\MiKTeX\tex/latex/ae\t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 ) (primeiro seminário.aux)
 \openout1 = `"primeiro seminário.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1253,7 +1254,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 33.
+Package hyperref Info: Link coloring ON on input line 34.
 (primeiro seminário.out) (primeiro seminário.out)
 \@outlinefile=\write6
 \openout6 = `"primeiro seminário.out"'.
@@ -1267,7 +1268,7 @@ File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `brazil'. on input line 33.
+or `brazil'. on input line 34.
 
 (C:\Program Files\MiKTeX\tex/latex/translations/dicts\translations-basic-dictio
 nary-english.trsl
@@ -1275,23 +1276,23 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 33.
-Package hyperref Info: Option `breaklinks' set `true' on input line 56.
-Package hyperref Info: Option `raiselinks' set `true' on input line 56.
-Package hyperref Info: Option `pageanchor' set `true' on input line 56.
-<logouft.pdf, id=78, 214.401pt x 241.48618pt>
+or `english'. on input line 34.
+Package hyperref Info: Option `breaklinks' set `true' on input line 57.
+Package hyperref Info: Option `raiselinks' set `true' on input line 57.
+Package hyperref Info: Option `pageanchor' set `true' on input line 57.
+<logouft.pdf, id=98, 214.401pt x 241.48618pt>
 File: logouft.pdf Graphic file (type pdf)
 <use logouft.pdf>
-Package pdftex.def Info: logouft.pdf  used on input line 56.
+Package pdftex.def Info: logouft.pdf  used on input line 57.
 (pdftex.def)             Requested size: 64.32079pt x 72.4464pt.
 LaTeX Font Info:    Trying to load font information for TS1+aer on input line 5
-6.
-LaTeX Font Info:    No file TS1aer.fd. on input line 56.
+7.
+LaTeX Font Info:    No file TS1aer.fd. on input line 57.
 
 
 LaTeX Font Warning: Font shape `TS1/aer/b/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textordmasculine' on input line 56.
+(Font)              for symbol `textordmasculine' on input line 57.
 
 
 
@@ -1303,18 +1304,18 @@ gouft.pdf>]
 No file "primeiro seminário".los.
 No file "primeiro seminário".lab.
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 84
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 85
 .
 
 (C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd
@@ -1327,7 +1328,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 
 ]
-Overfull \hbox (4.4136pt too wide) in paragraph at lines 133--134
+Overfull \hbox (4.4136pt too wide) in paragraph at lines 134--135
 []$\OML/cmm/m/it/14.4 FAC[] \OT1/cmr/m/n/14.4 : \OML/cmm/m/it/14.4 N \OT1/cmr/m
 /n/14.4 = \OML/cmm/m/it/14.4 V\OT1/cmr/m/n/14.4 [[]]$ $\OMS/cmsy/m/n/14.4 !$ $\
 OML/cmm/m/it/14.4 N \OT1/cmr/m/n/14.4 = 700[[]]$ $\OMS/cmsy/m/n/14.4 !$ $\OML/c
@@ -1335,14 +1336,14 @@ mm/m/it/14.4 N \OT1/cmr/m/n/14.4 = 700[[]] =
  []
 
 
-Overfull \hbox (0.55656pt too wide) in paragraph at lines 137--138
+Overfull \hbox (0.55656pt too wide) in paragraph at lines 138--139
 []$\OML/cmm/m/it/14.4 FFC[] \OT1/cmr/m/n/14.4 := \OML/cmm/m/it/14.4 PMT \OT1/cm
 r/m/n/14.4 = \OML/cmm/m/it/14.4 VF[][]$ $\OMS/cmsy/m/n/14.4 !$ $\OML/cmm/m/it/1
 4.4 PMT \OT1/cmr/m/n/14.4 = 45\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 000[][]$
  []
 
 
-Overfull \hbox (25.38495pt too wide) in paragraph at lines 153--159
+Overfull \hbox (25.38495pt too wide) in paragraph at lines 154--160
 []\T1/aer/m/n/14.4 PRICE: $\OML/cmm/m/it/14.4 R \OT1/cmr/m/n/14.4 = \OML/cmm/m/
 it/14.4 C\OT1/cmr/m/n/14.4 [[]]$ $\OMS/cmsy/m/n/14.4 !$ $\OML/cmm/m/it/14.4 R \
 OT1/cmr/m/n/14.4 = 30\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 000[[] \OMS/cmsy/m/n
@@ -1351,7 +1352,7 @@ OT1/cmr/m/n/14.4 = 30\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 000[[] \OMS/cmsy/m/n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--159
+Underfull \hbox (badness 10000) in paragraph at lines 154--160
 
  []
 
@@ -1362,16 +1363,38 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.159 	
+l.160 	
         [1]
-Underfull \hbox (badness 10000) in paragraph at lines 160--166
+Underfull \hbox (badness 10000) in paragraph at lines 161--167
 
  []
 
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textdegree' on input line 168.
+(Font)              for symbol `textdegree' on input line 169.
+
+LaTeX Font Info:    Calculating math sizes for size <16.79993> on input line 18
+3.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16.79993> not available
+(Font)              size <17.28> substituted on input line 183.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16.79993> not available
+(Font)              size <17.28> substituted on input line 183.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16.79993> not available
+(Font)              size <17.28> substituted on input line 183.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <16.79993> not available
+(Font)              size <17.28> substituted on input line 183.
+
+
+LaTeX Font Warning: Font shape `TS1/aer/m/n' in size <16.79993> not available
+(Font)              size <17.28> substituted on input line 185.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1388,27 +1411,23 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [4]
 Cap\'{\i }tulo 2.
 
-LaTeX Warning: Command \c invalid in math mode on input line 358.
-
-Missing character: There is no � in font cmr12!
-
-Overfull \hbox (2.14977pt too wide) in paragraph at lines 362--363
+Overfull \hbox (2.14977pt too wide) in paragraph at lines 365--366
 []$\OML/cmm/m/it/14.4 DA \OT1/cmr/m/n/14.4 = []$ $\OMS/cmsy/m/n/14.4 !$ $[]$ \T
 1/aer/m/n/14.4 = $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
 
 
-Overfull \hbox (35.25777pt too wide) in paragraph at lines 373--376
+Overfull \hbox (35.25777pt too wide) in paragraph at lines 376--379
 \T1/aer/m/n/14.4 Justificativa pelo DRE: 49.410(ven-das) - 17.411 (15% im-posto
 ) - 25.000(Cus-
  []
@@ -1420,17 +1439,17 @@ Overfull \hbox (35.25777pt too wide) in paragraph at lines 373--376
 ]
 Cap\'{\i }tulo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--398
+Underfull \hbox (badness 10000) in paragraph at lines 398--401
 
  []
 
@@ -1452,8 +1471,52 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [8]
 Cap\'{\i }tulo 5.
 
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+
+ []
+
+
+Overfull \hbox (3.42407pt too wide) in paragraph at lines 534--535
+[]\T1/aer/m/n/14.4 Conceder cr�-dito: $\OML/cmm/m/it/14.4 VPL \OT1/cmr/m/n/14.4
+ = [] \OMS/cmsy/m/n/14.4 ^^@ \OML/cmm/m/it/14.4 C[]o:Q[]o \OMS/cmsy/m/n/14.4 ! 
+\OML/cmm/m/it/14.4 VPL \OT1/cmr/m/n/14.4 = [] \OMS/cmsy/m/n/14.4 ^^@
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
+
+ []
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 542.
+
+Missing character: There is no � in font cmr10!
+
 
 [9
+
+]
+Cap\'{\i }tulo 6.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[10
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[11]
+
+[12]
+Cap\'{\i }tulo 7.
+
+
+[13
 
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -1464,32 +1527,38 @@ L3 programming layer <2024-08-30>
  ***********
 
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.48007pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `"primeiro seminário".out' has not changed.
-(rerunfilecheck)             Checksum: C1BC14CC5AEAD593D44E6B9FEE9BA7AA;8853.
+(rerunfilecheck)             Checksum: 71A97E67DBFD42081C94126AAE6F9524;14148.
  ) 
 Here is how much of TeX's memory you used:
- 51269 strings out of 473899
- 1203406 string characters out of 5736289
- 1881870 words of memory out of 5000000
- 73411 multiletter control sequences out of 15000+600000
- 583285 words of font info for 94 fonts, out of 8000000 for 9000
+ 51346 strings out of 473899
+ 1204792 string characters out of 5736289
+ 1882358 words of memory out of 5000000
+ 73462 multiletter control sequences out of 15000+600000
+ 589603 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,9n,107p,2365b,993s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,9n,107p,3072b,1016s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Lorenzo Costa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
-600\tcrm1440.pk> <C:\Users\Lorenzo Costa\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmb10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb>
-Output written on "primeiro seminário.pdf" (11 pages, 244644 bytes).
+600\tcrm1728.pk> <C:\Users\Lorenzo Costa\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\tcrm1440.pk> <C:\Users\Lorenzo Costa\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmb10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb>
+Output written on "primeiro seminário.pdf" (15 pages, 273076 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
